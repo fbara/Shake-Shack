@@ -10,7 +10,25 @@ import SwiftUI
 
 struct SignInOrCreateButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: "bag")
+                .font(.largeTitle)
+                .foregroundColor(.green)
+            
+            VStack(alignment: .leading) {
+                Text("Let's get shackin'!")
+                    .foregroundColor(Color.black)
+                    .fontWeight(.heavy)
+                Text("Sign in or create an account.")
+                    .foregroundColor(.secondary)
+            }.padding(.horizontal)
+            Spacer()
+        }
+        .padding()
+        .background(Color.white)
+        .cornerRadius(18)
+        .padding(.horizontal, 8)
+        
     }
 }
 

@@ -17,6 +17,8 @@
 		AD499AA123767E7D0020C173 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA023767E7D0020C173 /* MenuButtonView.swift */; };
 		AD499AA32376803F0020C173 /* WelcomeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA22376803F0020C173 /* WelcomeTextView.swift */; };
 		AD499AA5237681290020C173 /* SignInOrCreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */; };
+		AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA6237788C40020C173 /* WelcomeBottomView.swift */; };
+		AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AD499AA023767E7D0020C173 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		AD499AA22376803F0020C173 /* WelcomeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTextView.swift; sourceTree = "<group>"; };
 		AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateButtonView.swift; sourceTree = "<group>"; };
+		AD499AA6237788C40020C173 /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
+		AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,9 @@
 				AD499AA023767E7D0020C173 /* MenuButtonView.swift */,
 				AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */,
 				AD499AA22376803F0020C173 /* WelcomeTextView.swift */,
+				AD499AA6237788C40020C173 /* WelcomeBottomView.swift */,
 				AD29F854237679C3002823E5 /* BackgroundImageView.swift */,
+				AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */,
 				AD29F84623767823002823E5 /* Assets.xcassets */,
 				AD29F84B23767824002823E5 /* LaunchScreen.storyboard */,
 				AD29F84E23767824002823E5 /* Info.plist */,
@@ -163,8 +169,10 @@
 				AD499AA32376803F0020C173 /* WelcomeTextView.swift in Sources */,
 				AD499AA5237681290020C173 /* SignInOrCreateButtonView.swift in Sources */,
 				AD29F855237679C3002823E5 /* BackgroundImageView.swift in Sources */,
+				AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */,
 				AD499AA123767E7D0020C173 /* MenuButtonView.swift in Sources */,
 				AD29F84523767820002823E5 /* WelcomeView.swift in Sources */,
+				AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
