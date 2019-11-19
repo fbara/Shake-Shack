@@ -20,6 +20,8 @@
 		AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA6237788C40020C173 /* WelcomeBottomView.swift */; };
 		AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */; };
 		AD9C6122238475D2000F5F7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C6121238475D2000F5F7F /* LoginView.swift */; };
+		AD9C612423847BE7000F5F7F /* GetTheGoodsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */; };
+		AD9C612623847CA3000F5F7F /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		AD499AA6237788C40020C173 /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
 		AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonsView.swift; sourceTree = "<group>"; };
 		AD9C6121238475D2000F5F7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheGoodsTextView.swift; sourceTree = "<group>"; };
+		AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +77,12 @@
 				AD9C612023847590000F5F7F /* App Delegate */,
 				AD9C611F23847579000F5F7F /* Welcome View */,
 				AD29F84623767823002823E5 /* Assets.xcassets */,
+				AD9C6121238475D2000F5F7F /* LoginView.swift */,
+				AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */,
+				AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */,
 				AD29F84B23767824002823E5 /* LaunchScreen.storyboard */,
 				AD29F84E23767824002823E5 /* Info.plist */,
 				AD29F84823767823002823E5 /* Preview Content */,
-				AD9C6121238475D2000F5F7F /* LoginView.swift */,
 			);
 			path = "Shake Shack";
 			sourceTree = "<group>";
@@ -183,11 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9C612623847CA3000F5F7F /* LoginTextFieldView.swift in Sources */,
 				AD29F84123767820002823E5 /* AppDelegate.swift in Sources */,
 				AD29F84323767820002823E5 /* SceneDelegate.swift in Sources */,
 				AD499AA32376803F0020C173 /* WelcomeTextView.swift in Sources */,
 				AD499AA5237681290020C173 /* SignInOrCreateButtonView.swift in Sources */,
 				AD29F855237679C3002823E5 /* BackgroundImageView.swift in Sources */,
+				AD9C612423847BE7000F5F7F /* GetTheGoodsTextView.swift in Sources */,
 				AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */,
 				AD499AA123767E7D0020C173 /* MenuButtonView.swift in Sources */,
 				AD29F84523767820002823E5 /* WelcomeView.swift in Sources */,

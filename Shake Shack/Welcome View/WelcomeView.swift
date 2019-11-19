@@ -30,7 +30,7 @@ struct WelcomeView: View {
                     Spacer()
                     WelcomeTextView()
                     Spacer()
-                    NavigationLink(destination: Text("Coming soon.")) {
+                    NavigationLink(destination: LoginView()) {
                         SignInOrCreateButtonView()
                     }
                     .offset(y: isSignUpViewOnScreen ? 0 : 400)

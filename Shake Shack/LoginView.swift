@@ -9,8 +9,48 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    @State private var email = ""
+    @State private var steps = 0
+    
+    var backButton: some View {
+        Button(action: {
+            self.presentationMode.wrappedValue.dismiss()
+        }) {
+            ZStack {
+                Circle()
+                    .offset(x: 2)
+                    .stroke(lineWidth: 1)
+                    .foregroundColor(.gray)
+                
+                Image(systemName: "chevron.left")
+                    .padding()
+                    .font(.headline)
+                    .foregroundColor(.black)
+                
+            }
+        }
+    }
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                GetTheGoodsTextView()
+                
+                if steps == 0 {
+                    LoginTextFieldView(email: $email)
+                } else {
+                    /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                }
+                
+                Spacer()
+            }
+            
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: backButton)
     }
 }
 
