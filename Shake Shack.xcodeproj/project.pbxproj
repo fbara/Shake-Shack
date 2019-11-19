@@ -19,6 +19,7 @@
 		AD499AA5237681290020C173 /* SignInOrCreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */; };
 		AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA6237788C40020C173 /* WelcomeBottomView.swift */; };
 		AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */; };
+		AD9C6122238475D2000F5F7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C6121238475D2000F5F7F /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateButtonView.swift; sourceTree = "<group>"; };
 		AD499AA6237788C40020C173 /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
 		AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonsView.swift; sourceTree = "<group>"; };
+		AD9C6121238475D2000F5F7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,19 +70,13 @@
 		AD29F83F23767820002823E5 /* Shake Shack */ = {
 			isa = PBXGroup;
 			children = (
-				AD29F84023767820002823E5 /* AppDelegate.swift */,
-				AD29F84223767820002823E5 /* SceneDelegate.swift */,
-				AD29F84423767820002823E5 /* WelcomeView.swift */,
-				AD499AA023767E7D0020C173 /* MenuButtonView.swift */,
-				AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */,
-				AD499AA22376803F0020C173 /* WelcomeTextView.swift */,
-				AD499AA6237788C40020C173 /* WelcomeBottomView.swift */,
-				AD29F854237679C3002823E5 /* BackgroundImageView.swift */,
-				AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */,
+				AD9C612023847590000F5F7F /* App Delegate */,
+				AD9C611F23847579000F5F7F /* Welcome View */,
 				AD29F84623767823002823E5 /* Assets.xcassets */,
 				AD29F84B23767824002823E5 /* LaunchScreen.storyboard */,
 				AD29F84E23767824002823E5 /* Info.plist */,
 				AD29F84823767823002823E5 /* Preview Content */,
+				AD9C6121238475D2000F5F7F /* LoginView.swift */,
 			);
 			path = "Shake Shack";
 			sourceTree = "<group>";
@@ -91,6 +87,29 @@
 				AD29F84923767823002823E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD9C611F23847579000F5F7F /* Welcome View */ = {
+			isa = PBXGroup;
+			children = (
+				AD499AA4237681290020C173 /* SignInOrCreateButtonView.swift */,
+				AD499AA023767E7D0020C173 /* MenuButtonView.swift */,
+				AD29F854237679C3002823E5 /* BackgroundImageView.swift */,
+				AD29F84423767820002823E5 /* WelcomeView.swift */,
+				AD499AA22376803F0020C173 /* WelcomeTextView.swift */,
+				AD499AA6237788C40020C173 /* WelcomeBottomView.swift */,
+				AD499AA82377987F0020C173 /* WelcomeBottomButtonsView.swift */,
+			);
+			path = "Welcome View";
+			sourceTree = "<group>";
+		};
+		AD9C612023847590000F5F7F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AD29F84023767820002823E5 /* AppDelegate.swift */,
+				AD29F84223767820002823E5 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +191,7 @@
 				AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */,
 				AD499AA123767E7D0020C173 /* MenuButtonView.swift in Sources */,
 				AD29F84523767820002823E5 /* WelcomeView.swift in Sources */,
+				AD9C6122238475D2000F5F7F /* LoginView.swift in Sources */,
 				AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
