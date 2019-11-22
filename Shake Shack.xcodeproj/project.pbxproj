@@ -22,6 +22,8 @@
 		AD9C6122238475D2000F5F7F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C6121238475D2000F5F7F /* LoginView.swift */; };
 		AD9C612423847BE7000F5F7F /* GetTheGoodsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */; };
 		AD9C612623847CA3000F5F7F /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */; };
+		AD9C612823878DCE000F5F7F /* LoginButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612723878DCE000F5F7F /* LoginButtonsView.swift */; };
+		AD9C612A23879236000F5F7F /* ContinueButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C612923879236000F5F7F /* ContinueButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		AD9C6121238475D2000F5F7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheGoodsTextView.swift; sourceTree = "<group>"; };
 		AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		AD9C612723878DCE000F5F7F /* LoginButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonsView.swift; sourceTree = "<group>"; };
+		AD9C612923879236000F5F7F /* ContinueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				AD9C611F23847579000F5F7F /* Welcome View */,
 				AD29F84623767823002823E5 /* Assets.xcassets */,
 				AD9C6121238475D2000F5F7F /* LoginView.swift */,
+				AD9C612923879236000F5F7F /* ContinueButtonView.swift */,
+				AD9C612723878DCE000F5F7F /* LoginButtonsView.swift */,
 				AD9C612523847CA3000F5F7F /* LoginTextFieldView.swift */,
 				AD9C612323847BE7000F5F7F /* GetTheGoodsTextView.swift */,
 				AD29F84B23767824002823E5 /* LaunchScreen.storyboard */,
@@ -198,7 +204,9 @@
 				AD9C612423847BE7000F5F7F /* GetTheGoodsTextView.swift in Sources */,
 				AD499AA7237788C40020C173 /* WelcomeBottomView.swift in Sources */,
 				AD499AA123767E7D0020C173 /* MenuButtonView.swift in Sources */,
+				AD9C612A23879236000F5F7F /* ContinueButtonView.swift in Sources */,
 				AD29F84523767820002823E5 /* WelcomeView.swift in Sources */,
+				AD9C612823878DCE000F5F7F /* LoginButtonsView.swift in Sources */,
 				AD9C6122238475D2000F5F7F /* LoginView.swift in Sources */,
 				AD499AA92377987F0020C173 /* WelcomeBottomButtonsView.swift in Sources */,
 			);

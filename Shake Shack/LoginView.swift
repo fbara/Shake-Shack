@@ -42,7 +42,14 @@ struct LoginView: View {
                 if steps == 0 {
                     LoginTextFieldView(email: $email)
                 } else {
-                    /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                    LoginTextFieldView(email: $email)
+                    LoginTextFieldView(email: $email)
+                }
+                
+                if email.isEmpty {
+                    LoginButtonsView()
+                } else {
+                    ContinueButtonView(steps: $steps)
                 }
                 
                 Spacer()

@@ -15,7 +15,7 @@ struct LoginTextFieldView: View {
         TextField("Enter your email", text: $email)
             .keyboardType(.emailAddress)
             .padding()
-            .background(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
+            .background(Color(#colorLiteral(red: 0.926155746, green: 0.9410773516, blue: 0.9455420375, alpha: 0.8943172089)))
             .cornerRadius(18)
             .padding()
     }
